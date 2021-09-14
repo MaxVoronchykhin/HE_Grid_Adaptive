@@ -1,0 +1,51 @@
+.portfolio {
+    background-color: #FFFFFF;
+    padding-top: 6.3rem;
+}
+.container {
+    width: 111rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 8.6rem;
+
+}
+h3 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 4.8rem;
+
+}
+.portfolio_content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 12.5rem;
+}
+p {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal; 
+    font-size: 1.8rem;
+    line-height: 1.67;
+    margin-bottom: 23.5rem;
+
+}
+.portfolio_pics {
+    width: 63.5rem;
+    height: 41rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+}
+img {
+    width: 100%;
+}
