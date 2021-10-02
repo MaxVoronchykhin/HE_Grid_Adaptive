@@ -101,8 +101,8 @@ p {
     height: 410px;
     display: grid;
     grid-template-columns: 5.7fr 4.3fr;
-    grid-template-rows: 3.52fr 1.34fr 3.52fr;
     gap: 30px;
+    position: relative;
 }
 @media (max-width: 1200px) {
     .portfolio_pics {
@@ -113,4 +113,16 @@ p {
 img {
     width: 100%;
 }   
-.portfolio_pics img:nth-child(3) {
+.river {
+    width: 54.96%;
+    height: 56.97%;
+    position: absolute;
+    top: 174px;
+}
+.building {
+    width: 41%;
+    height: 35.21%;
+    position: absolute;
+    top: 261px;
+    right: 0;
+}
